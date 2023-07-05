@@ -351,16 +351,13 @@ section {
 .projectss .project-info span {
   color: black;
 }
-.ABOUT {
-  height: 800px;
-}
 .ABOUT .infoo .about-creator {
   display: flex;
   justify-content: center;
   font-size: 30px;
 }
 .ABOUT .infoo img {
-  height: 270px;
+  height: 230pxpx;
   border: solid 1px;
   margin-left: 25px;
 }
@@ -385,6 +382,10 @@ section {
 }
 /*media small */
 @media (max-width: 480px) {
+  .ABOUT .infoo .icoon{
+    display: flex;
+    justify-content: center;
+  }
   .imgg {
     display: flex;
     justify-content: center;
@@ -395,10 +396,10 @@ section {
     font-size: 14px;
   }
   .main .glass h2 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .main .glass h3 {
-    font-size: 15px;
+    font-size: 14px;
   }
   .main-btn {
     color: #fff;
@@ -419,7 +420,7 @@ section {
   .creator-icon .iconn {
     height: px;
   }
-  .ABOUT {
+.ABOUT{
   height: 2200px;
 }
 }
@@ -433,7 +434,12 @@ p {
   border: solid 1px;
   margin-top: 20px;
 }
+/*Tablets*/
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .ABOUT .infoo .icoon{
+    display: flex;
+    justify-content: center;
+  }
   .ABOUT .infoo img {
     height: 183px;
     border: solid 1px;
@@ -475,7 +481,4 @@ footer {
 .creator-icon {
   display: flex;
   justify-content: center;
-}
-   .ABOUT {
-  height: 1200px;
 }
