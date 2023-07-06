@@ -26,6 +26,7 @@ header {
   font-family: Kufam;
   color: white;
   margin-bottom: 25px;
+  text-shadow: -1px 8px 10px black;
 }
 
 .main .glass h2 {
@@ -222,7 +223,7 @@ section {
 }
 @media screen and (max-width: 999999px) {
   section {
-    padding: 50px 50px;
+    padding: 50px 20px;
   }
 
   .main h2 {
@@ -291,51 +292,6 @@ section {
     height: auto;
   }
 }
-@media only screen and (max-width: 950px) and (min-width: 300px) {
-  header {
-    padding: 10px 0px;
-    font-size: 0.7em;
-  }
-  .navigation a {
-    padding-left: 45px;
-    text-align: left;
-    font-size: 0.8em;
-    padding-right: 5px;
-  }
-  .logo {
-    margin-left: 5px;
-  }
-}
-@media only screen and (max-width: 740px) and (min-width: 360px) {
-  .navigation a {
-    padding-left: 31px;
-    text-align: left;
-  }
-}
-@media only screen and (max-width: 740px) and (min-width: 360px) {
-  .navigation a {
-    padding-left: 11px;
-    text-align: left;
-  }
-}
-@media only screen and (max-width: 1180px) and (min-width: 820px) {
-  header {
-    padding: 10px 0px;
-    font-size: 1.7em;
-  }
-}
-@media only screen and (max-width: 950px) and (min-width: 300px) {
-  header {
-    padding: 10px 0px;
-    font-size: 0.8em;
-  }
-}
-@media only screen and (max-width: 740px) and (min-width: 360px) {
-  header {
-    padding: 10px 0px;
-    font-size: 0.8em;
-  }
-}
 .style {
   display: flex;
   justify-content: center;
@@ -382,7 +338,7 @@ section {
 }
 /*media small */
 @media (max-width: 480px) {
-  .ABOUT .infoo .icoon{
+  .ABOUT .infoo .icoon {
     display: flex;
     justify-content: center;
   }
@@ -420,9 +376,9 @@ section {
   .creator-icon .iconn {
     height: px;
   }
-.ABOUT{
-  height: 2200px;
-}
+  .ABOUT {
+    height: 2200px;
+  }
 }
 p {
   margin-top: 0;
@@ -436,7 +392,7 @@ p {
 }
 /*Tablets*/
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .ABOUT .infoo .icoon{
+  .ABOUT .infoo .icoon {
     display: flex;
     justify-content: center;
   }
@@ -463,10 +419,11 @@ p {
     position: relative;
     left: 230px;
   }
-   .ABOUT {
-  height: 1800px;
+  .ABOUT {
+    height: 1800px;
+  }
 }
-}
+/*Galaxy*/
 @media screen and (min-device-width: 412px) and (max-device-width: 914px) {
   .creator-icon lord-icon {
     width: 250px;
@@ -482,7 +439,40 @@ footer {
   display: flex;
   justify-content: center;
 }
-.ABOUT .infoo .icoon{
+.ABOUT .infoo .icoon {
   display: flex;
   justify-content: center;
+}
+/*MEDIA FAST MEDIA QUERE */
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (max-width: 450px)and (min-device-width: 300px) {
+  header {
+    padding: 10px 10px;
+  }
+  .logo {
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-left: 10px;
+  }
+  .navigation a {
+    font-size: 0.6em;
+    font-weight: 300;
+    padding-left: 8px;
+  }
+}
+/*TABLETS*/
+@media only screen and (max-width: 920px) and (min-width: 500px){
+  .logo {
+    font-weight: 700;
+    font-size: 2em;
+    margin-left: 20px;
+}
+.navigation a {
+    font-size: 1.2em;
+    font-weight: 300;
+    padding-left: 25px;
+}
+header{
+  padding: 10px 10px;
+}
 }
