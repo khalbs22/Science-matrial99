@@ -77,8 +77,8 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(https://scontent.fcai19-6.fna.fbcdn.net/v/t39.30808-6/274699997_2801400760163799_2353133000559874394_n.jpg?_nc_cat=105&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_ohc=rlh3ZCLM3FcAX_VrcwJ&_nc_ht=scontent.fcai19-6.fna&oh=00_AfAJFrJZXBA2MMfX0r8_2IeuFOd0lKFwWc4AGnp2LO38zA&oe=64ABAB44)
-    no-repeat;
+  background-image: url("css/274699997_2801400760163799_2353133000559874394_n.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -350,7 +350,7 @@ section {
     justify-content: center;
   }
   .glass{
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .imgg {
     display: flex;
@@ -405,22 +405,9 @@ p {
     margin-left: 12px;
   }
   .main .glass h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
   .main-btn {
-    color: #fff;
-    background-color: #3a6cf4;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 600;
-    display: inline-block;
-    padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    margin-bottom: 40px;
-    transition: 0.7s ease;
-    position: relative;
-    left: 230px;
   }
   .ABOUT {
     height: 1800px;
@@ -602,5 +589,4 @@ footer {
   justify-content: center;
     display: flex;
     align-items: center;
-    width: 100%;
 }
