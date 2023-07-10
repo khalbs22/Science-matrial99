@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,900&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Russo+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,900&family=Lemonada:wght@700&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Russo+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Russo+One&display=swap");
 * {
   font-family: "Poppins", sans-serif;
@@ -23,7 +24,7 @@ header {
   box-shadow: 2px 2px 30px black;
 }
 .main .glass .s1 {
-  font-family: Kufam;
+  font-family: Lemonada;
   color: white;
   margin-bottom: 25px;
   text-shadow: -1px 8px 10px black;
@@ -121,7 +122,6 @@ section {
   margin-bottom: 40px;
   transition: 0.7s ease;
   position: relative;
-  left: 300px;
 }
 
 .main-btn:hover {
@@ -349,6 +349,9 @@ section {
     display: flex;
     justify-content: center;
   }
+  .glass{
+    margin-top: 60px;
+  }
   .imgg {
     display: flex;
     justify-content: center;
@@ -365,20 +368,13 @@ section {
     font-size: 14px;
   }
   .main-btn {
-    color: #fff;
-    background-color: #3a6cf4;
-    text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
-    display: inline-block;
-    padding: 0.9375em 2.1875em;
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.7s ease;
-    position: relative;
-    left: 43px;
-    margin-top: 26px;
+    margin-top: 25px;
   }
   .creator-icon .iconn {
     height: px;
@@ -595,4 +591,16 @@ footer {
   font-size: 25px;
   text-transform: uppercase;
   font-family: Poppins;
+  font-weight: 900  ;
+}
+@media (max-width:767px){
+  .loggo h1{
+  font-size: 20px;
+}
+}
+.btnn{
+  justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
